@@ -1,0 +1,11 @@
+D:\Projects\Canes client\bin\Debug\Canes client.exe.config
+D:\Projects\Canes client\bin\Debug\Canes client.exe
+D:\Projects\Canes client\bin\Debug\Canes client.pdb
+D:\Projects\Canes client\obj\Debug\Canes client.csproj.AssemblyReference.cache
+D:\Projects\Canes client\obj\Debug\Canes client.csproj.SuggestedBindingRedirects.cache
+D:\Projects\Canes client\obj\Debug\Canes_client.Properties.Resources.resources
+D:\Projects\Canes client\obj\Debug\Canes client.csproj.GenerateResource.cache
+D:\Projects\Canes client\obj\Debug\Canes client.csproj.CoreCompileInputs.cache
+D:\Projects\Canes client\obj\Debug\Canes client.exe
+D:\Projects\Canes client\obj\Debug\Canes client.pdb
+D:\Projects\Canes client\obj\Debug\Canes_client.FirstPage.resources

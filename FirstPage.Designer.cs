@@ -37,9 +37,9 @@
             this.modpacks = new System.Windows.Forms.Button();
             this.home = new System.Windows.Forms.Button();
             this.Title = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.Updates = new RoundedPictureBox();
             this.News = new RoundedPictureBox();
             this.SideBar.SuspendLayout();
@@ -159,6 +159,19 @@
             this.Title.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Title_MouseMove);
             this.Title.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Title_MouseUp);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("Arial Black", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(3, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(595, 67);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Cane\'s Server Creator";
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
@@ -174,24 +187,12 @@
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(637, 36);
+            this.button1.Location = new System.Drawing.Point(652, 36);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(50, 50);
             this.button1.TabIndex = 7;
             this.button1.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Arial Black", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(3, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(369, 67);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Cane\'s Client";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Updates
             // 

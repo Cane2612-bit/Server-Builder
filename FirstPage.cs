@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+using System.Diagnostics;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Canes_client
@@ -27,7 +22,7 @@ namespace Canes_client
             SideBar.BackColor = Color.FromArgb(156, 4, 8, 10);
             Updates.BackColor = Color.FromArgb(156, 14, 18, 29);
             News.BackColor = Color.FromArgb(156, 14, 18, 29);
-            
+
         }
 
         private void Title_MouseDown(object sender, MouseEventArgs e)
@@ -65,6 +60,22 @@ namespace Canes_client
         private void minimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string discordurl = "https://discord.gg/p6THpC4Hrf"; // Change this link if new server is made
+
+            try
+            {
+                // Use Process.Start to open the default web browser with the specified URL
+                Process.Start(discordurl);
+            }
+            catch (Exception ex)
+            {
+                // Handle any exceptions that may occur when trying to open the link
+                Console.WriteLine("Error: " + ex.Message);
+            }
         }
     }
 }
